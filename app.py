@@ -22,3 +22,7 @@ def about():
 @app.route('/writing.html')
 def writing():
     return render_template('render_md.html', content=convert_md('writing'))
+
+@app.route('/code.html')
+def code():
+    return render_template('render_md.html', content=convert_md('code'))
