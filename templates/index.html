@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.intro, .about, .writing, .code, .cheers {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.intro {
+  background-image: url("{{ url_for('static', filename='Zermatt.jpg') }}");
+  min-height: 100%;
+}
+
+.about {
+  background-image: url("{{ url_for('static', filename='Sky.jpeg') }}");
+  min-height: 400px;
+}
+
+.writing {
+  background-image: url("{{ url_for('static', filename='Writing.jpg') }}");
+  min-height: 400px;
+}
+
+.code {
+  background-image: url("{{ url_for('static', filename='Code.jpg') }}");
+  min-height: 400px;
+}
+
+.cheers {
+  background-image: url("{{ url_for('static', filename='Cheers.jpg') }}");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+a {
+    color: white
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .intro, .about, .writing, .code, .cheers {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="intro">
+  <div class="caption">
+  <span class="border">Sky Bristol (skybristol.com)</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Welcome!</h3>
+  <p>Thank you for visiting. I hadn't changed things up here on this site in quite a while, and everything was quite stale. Frankly, it's a little odd anymore to have a dedicated "vanity" site like this with so many other places to post content. Once a domain is established, though, it's hard to give up that valuable piece of online real estate.</p>
+  <p>You'll find a little bit of information here about me personally and professionally. Mostly, you'll find pointers to where you can see digital contributions and things I'm up to. I'll try to keep it from becoming quite so stale.</p>
+</div>
+
+<div class="about">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">ABOUT</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Read <a href="{{ url_for('about') }}">about</a> who I am, what I do, and what motivates me.</p>
+  </div>
+</div>
+
+<div class="writing">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WRITING</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Find pointers to some of my <a href="{{ url_for('writing') }}">writing</a> online.</p>
+  </div>
+</div>
+
+<div class="code">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">CODE</span>
+    </div>
+</div>
+  
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>That picture is looking out at the Colorado National Monument from our "Pandemic Pergola," one of my projects as we were heading into the dark times in 2019. It now makes for beautiful and inspiring sunrises like this one in a place I often get some great early morning code-writing done before it gets too hot in the summer. Check out my <a href="https://github.com/skybristol">GitHub handle</a> for that stuff.</p>
+    </div>
+</div>
+  
+<div class="cheers">
+  <div class="caption">
+  <span class="border">Cheers!</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>All photos and writing on this domain are my own.</p>
+    <p>Copyright ©2022 Sky Bristol</p>
+    </div>
+</div>
+
+
+</body>
+</html>
