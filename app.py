@@ -155,13 +155,3 @@ def code():
 #     logout_user()
 #     return redirect(url_for("index"))
 
-@app.route("/env")
-def env():
-    vars = []
-    for v in os.environ:
-        vars.append(f"<li>{v} = {os.environ[v]}</li>")
-    
-    output = f"<ul>{''.join(vars)}</ul>"
-
-    return output
-        
