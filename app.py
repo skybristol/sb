@@ -1,44 +1,34 @@
 from flask import Flask, render_template, redirect, request, url_for
-# from flask_login import (
-#     LoginManager,
-#     current_user,
-#     login_required,
-#     login_user,
-#     logout_user
-# )
+from flask_login import (
+    LoginManager,
+    current_user,
+    login_required,
+    login_user,
+    logout_user
+)
 
-# from oauthlib.oauth2 import WebApplicationClient
-# import requests
+from oauthlib.oauth2 import WebApplicationClient
+import requests
 
 from datetime import datetime
 import markdown
 
-# import json
+import json
 import os
-# import sqlite3
 
-# from db import init_db_command
-# from user import User
-
-# GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", None)
-# GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", None)
-# GOOGLE_DISCOVERY_URL = (
-#     "https://accounts.google.com/.well-known/openid-configuration"
-# )
+GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", None)
+GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", None)
+GOOGLE_DISCOVERY_URL = (
+    "https://accounts.google.com/.well-known/openid-configuration"
+)
 
 app = Flask(__name__)
-# app.secret_key = os.environ.get("SECRET_KEY") or os.urandom(24)
+app.secret_key = os.environ.get("SECRET_KEY") or os.urandom(24)
 
-# login_manager = LoginManager()
-# login_manager.init_app(app)
+login_manager = LoginManager()
+login_manager.init_app(app)
 
-# try:
-#     init_db_command()
-# except sqlite3.OperationalError:
-#     # Assume it's already been created
-#     pass
-
-# client = WebApplicationClient(GOOGLE_CLIENT_ID)
+client = WebApplicationClient(GOOGLE_CLIENT_ID)
 
 def convert_md(article):
     with open(f'articles/{article}.md', 'r') as f:
