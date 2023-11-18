@@ -1,7 +1,0 @@
-spec:
-  name: skybristol.com
-  services:
-  - name: web
-    git:
-      branch: main
-      repo_clone_url: https://github.com/skybristol/sb.git
