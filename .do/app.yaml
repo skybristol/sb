@@ -1,0 +1,6 @@
+name: skybristol.com
+services:
+- name: web
+  github:
+    repo: skybristol/sb
+    branch: dev
