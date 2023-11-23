@@ -16,18 +16,18 @@
       <description>about me</description>
     </item>
     <item>
-      <title>About</title>
-      <link>/posts/writing/</link>
-      <pubDate>Thu, 23 Nov 2023 07:13:27 -0700</pubDate>
-      <guid>/posts/writing/</guid>
-      <description>I do some writing and I&amp;rsquo;m working on doing more</description>
-    </item>
-    <item>
       <title>Code</title>
       <link>/posts/code/</link>
       <pubDate>Thu, 23 Nov 2023 07:13:27 -0700</pubDate>
       <guid>/posts/code/</guid>
       <description>I like building things with code</description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>/posts/writing/</link>
+      <pubDate>Thu, 23 Nov 2023 07:13:27 -0700</pubDate>
+      <guid>/posts/writing/</guid>
+      <description>I do some writing and I&amp;rsquo;m working on doing more</description>
     </item>
   </channel>
 </rss>
