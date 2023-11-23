@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/</loc>
-    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
-  </url><url>
-    <loc>/docs/install-hugo/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url><url>
-    <loc>/docs/install-theme/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url><url>
     <loc>/posts/about/</loc>
     <lastmod>2023-11-23T07:13:27-07:00</lastmod>
   </url><url>
@@ -19,15 +10,6 @@
   </url><url>
     <loc>/posts/writing/</loc>
     <lastmod>2023-11-23T07:13:27-07:00</lastmod>
-  </url><url>
-    <loc>/docs/configure/</loc>
-    <lastmod>2019-02-11T19:30:08+10:00</lastmod>
-  </url><url>
-    <loc>/docs/specimen/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url><url>
-    <loc>/docs/example/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
     <lastmod>2023-11-23T07:13:27-07:00</lastmod>
