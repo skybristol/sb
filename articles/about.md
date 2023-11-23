@@ -1,9 +1,0 @@
-# About me
-
-I'm an innovator more than an inventor, but I really love to innovate. I love finding something in the world that interests me or that I'm involved in, figuring out how it works now, determining what's wrong with how it works, and then finding a better path. Sometimes that gets me in trouble, but it has always makes for interesting journeys.
-
-I am now approaching 30 years into a career as a civil servant. I started off in the study of how environmental contaminants of different kinds, organic and inorganic compounds that harm ecosystems, are making their way into our water and food webs. I meandered my way toward more of an overall focus on all kinds of scientific data and how we leverage them. I've developed some data skills and am currently focused on the application of data science in the geosciences.
-
-I've recently cut back my time with the USGS to half time and am spending more time on personal pursuits of interest. This includes a lot of time out camping and doing other things with my family along with volunteer work of various kinds.
-
-> Note: I still work for the U.S. Government, and I take my role as an ethical civil servant very seriously. I'm careful about what I do in my personal life that might be construed as representing an official position of my organization. What you'll find here and in referenced online writings and other contributions are my own creation and not anything official from my government role. You will at times find me being critical of things I've seen over my career. I speak my mind on those things pretty openly wherever I am as my intent is to find ways to do work in managing the [public trust](https://en.wikipedia.org/wiki/Public_trust_doctrine) in better ways.

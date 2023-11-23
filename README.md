@@ -1,1 +1,0 @@
-This is a Python Flask web app for [skybristol.com](https://skybristol.com)
