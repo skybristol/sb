@@ -23,18 +23,18 @@
       <description>I like building things with code</description>
     </item>
     <item>
-      <title>Contact</title>
-      <link>/posts/contact/</link>
-      <pubDate>Thu, 23 Nov 2023 07:13:27 -0700</pubDate>
-      <guid>/posts/contact/</guid>
-      <description>get in touch</description>
-    </item>
-    <item>
       <title>Writing</title>
       <link>/posts/writing/</link>
       <pubDate>Thu, 23 Nov 2023 07:13:27 -0700</pubDate>
       <guid>/posts/writing/</guid>
       <description>I do some writing and I&amp;rsquo;m working on doing more</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>/posts/contact/</link>
+      <pubDate>Thu, 23 Nov 2023 07:13:27 -0700</pubDate>
+      <guid>/posts/contact/</guid>
+      <description>get in touch</description>
     </item>
   </channel>
 </rss>
